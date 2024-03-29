@@ -1,5 +1,5 @@
 {
-  "name": "Wechat-Message-Api",
+  "name": "wechat-message-api",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,7 +7,7 @@
     "serve": "nodemon ./app.js"
   },
   "keywords": [],
-  "author": "DHBXS",
+  "author": "灯火不休时",
   "license": "ISC",
   "dependencies": {
     "@wecom/crypto": "^1.0.1",

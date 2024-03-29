@@ -1,14 +1,16 @@
 <div id="top"></div>
 
-<div align="center">
-状态 | 稳定
+# 企业微信应用接收消息服务器-认证接口服务
 
-</br>
+<div align="center">
 
 ![NodeJs](https://img.shields.io/badge/NodeJs-V20.12.0-brightgreen) 
 ![Express](https://img.shields.io/badge/Express-4.19.2-brightgreen)
 ![GitHub stars](https://img.shields.io/github/stars/dhbxs/WechatWork-Message-API.svg?style=flat-square&label=Stars&logo=github) 
 ![GitHub forks](https://img.shields.io/github/forks/dhbxs/WechatWork-Message-API.svg?style=flat-square&label=Forks&logo=github)
+
+</br>
+状态 | 稳定
 
 </div>
 
@@ -60,6 +62,8 @@
     TOKEN=XXX
     ENCODING_AES_KEY=XXX
     ```
+    ![API接收消息](./img/001.png)
+    
 4. 点击 Deploy 部署即可
 5. 在 Vercel 中添加 Domain，并将你的域名解析到 Vercel 即可
 6. 在 [企业微信开发者工具](https://developer.work.weixin.qq.com/resource/devtool) 建立连接 -> 测试回调模式，填写相关信息即可开始测试，测试没问题即可在接收消息服务器配置中配置
@@ -80,6 +84,6 @@
 
 ## 许可证
 
-根据 MIT 许可证分发。打开 [LICENSE.txt](LICENSE.txt) 查看更多内容。
+根据 MIT 许可证分发。打开 [LICENSE](LICENSE) 查看更多内容。
 
 <p align="right">(<a href="#top">返回顶部</a>)</p>
